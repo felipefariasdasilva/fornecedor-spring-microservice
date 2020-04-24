@@ -1,7 +1,6 @@
 package com.alura.microservice.fornecedor.fornecedor.controller;
 
 import com.alura.microservice.fornecedor.fornecedor.model.InfoForncedor;
-import com.alura.microservice.fornecedor.fornecedor.repository.InfoRepository;
 import com.alura.microservice.fornecedor.fornecedor.service.InfoService;
 
 import org.springframework.beans.factory.annotation.Autowired;
