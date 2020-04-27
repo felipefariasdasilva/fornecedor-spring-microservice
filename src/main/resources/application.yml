@@ -1,17 +1,6 @@
 server:
   port: 8081
 
-spring:
-  application:
-    name: 'fornecedor'
-  jpa:
-    hibernate:
-      ddl-auto: update
-  datasource:
-    url: jdbc:mysql://localhost:3306/fornecedor?useTimezone=true&serverTimezone=UTC
-    username: root
-    password: root
-
 eureka:
   client:
     register-with-eureka: true
